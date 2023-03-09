@@ -3,7 +3,7 @@ yarn add react-native-reanimated react-native-splash-screen react-native-gesture
 ```
 
 ```
-yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks prettier eslint react-native-dotenv @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks react-native-vector-icons
+yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks prettier eslint react-native-dotenv @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks react-native-vector-icons @types/react-native-vector-icons
 ```
 
 ### EsLint config
@@ -83,5 +83,21 @@ yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-reac
   "bracketSpacing": false,
   "singleQuote": true,
   "trailingComma": "all",
+}
+```
+
+### 
+
+```js
+{
+  <...>,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths" : {
+      "src/*": ["src/*"]
+    },
+    /* Completeness */
+    "skipLibCheck": true
+  }
 }
 ```
