@@ -157,7 +157,7 @@ module.exports = {
 
 ### Create src folder and replace App.tsx
 
-```
+```jsx
 import {AppRegistry} from 'react-native';
 
 import {AppWithProviders} from 'src/app-with-providers';
