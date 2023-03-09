@@ -78,10 +78,10 @@ yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-reac
 
 ```json
 {
-  arrowParens: 'avoid',
-  bracketSameLine: true,
-  bracketSpacing: false,
-  singleQuote: true,
-  trailingComma: 'all',
+  "arrowParens": "avoid",
+  "bracketSameLine": true,
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "trailingComma": "all",
 };
 ```
