@@ -83,5 +83,5 @@ yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-reac
   "bracketSpacing": false,
   "singleQuote": true,
   "trailingComma": "all",
-};
+}
 ```
