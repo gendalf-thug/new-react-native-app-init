@@ -86,7 +86,7 @@ yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-reac
 }
 ```
 
-### 
+### TS config
 
 ```js
 {
@@ -100,4 +100,46 @@ yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-reac
     "skipLibCheck": true
   }
 }
+```
+
+### react-native.config.js
+
+```js
+module.exports = {
+  ...,
+  assets: ['./assets/fonts/'],
+};
+```
+
+### babel.config.js
+
+```js
+module.exports = {
+  presets: [
+    'module:metro-react-native-babel-preset',
+    '@babel/preset-typescript',
+  ],
+  plugins: [
+    [
+      'module-resolver',
+      {
+        alias: {
+          src: './src',
+        },
+      },
+    ],
+    [
+      'module:react-native-dotenv',
+      {
+        envName: 'APP_ENV',
+        moduleName: '@env',
+        path: '.env',
+        safe: false,
+        allowUndefined: true,
+        verbose: false,
+      },
+    ],
+    'react-native-reanimated/plugin',
+  ],
+};
 ```
