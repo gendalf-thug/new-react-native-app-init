@@ -143,3 +143,14 @@ module.exports = {
   ],
 };
 ```
+
+### package.json
+
+```
+{
+  "scripts": {
+    ...,
+    "link-asset": "npx react-native-asset"
+  }
+}
+```
