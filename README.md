@@ -1,9 +1,9 @@
 ```
-yarn add react-native-reanimated react-native-splash-screen react-native-gesture-handler react-hook-form @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack react-native-orientation-locker react-native-safe-area-context react-native-screens react-native-vector-icons react-native-spinkit @react-native-async-storage/async-storage
+yarn add react-native-reanimated react-native-splash-screen react-native-gesture-handler react-hook-form @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack react-native-orientation-locker react-native-safe-area-context react-native-screens react-native-vector-icons @react-native-async-storage/async-storage
 ```
 
 ```
-yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks prettier eslint react-native-dotenv @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks react-native-vector-icons @types/react-native-vector-icons
+yarn add -D babel-plugin-module-resolver eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks prettier eslint react-native-dotenv @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks @types/react-native-vector-icons
 ```
 
 ### EsLint config
