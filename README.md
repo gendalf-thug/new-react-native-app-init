@@ -167,4 +167,4 @@ import {name as appName} from './app.json';
 AppRegistry.registerComponent(appName, () => AppWithProviders);
 ```
 
-### (Setup splash)[https://github.com/crazycodeboy/react-native-splash-screen#third-stepplugin-configuration]
+### [Setup splash](https://github.com/crazycodeboy/react-native-splash-screen#third-stepplugin-configuration)
