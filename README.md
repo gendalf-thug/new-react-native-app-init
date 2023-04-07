@@ -1,5 +1,5 @@
 ```
-yarn add react-native-reanimated react-native-splash-screen react-native-gesture-handler react-hook-form @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack react-native-orientation-locker react-native-safe-area-context react-native-screens react-native-vector-icons @react-native-async-storage/async-storage
+yarn add react-native-reanimated react-native-splash-screen react-native-gesture-handler react-hook-form @react-navigation/bottom-tabs @react-navigation/native @react-navigation/native-stack react-native-orientation-locker react-native-safe-area-context react-native-screens react-native-vector-icons @react-native-async-storage/async-storage react-native-svg
 ```
 
 ```
