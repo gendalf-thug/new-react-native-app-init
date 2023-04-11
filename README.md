@@ -168,3 +168,4 @@ AppRegistry.registerComponent(appName, () => AppWithProviders);
 ```
 
 ### [Setup splash](https://github.com/crazycodeboy/react-native-splash-screen#third-stepplugin-configuration)
+### [Setup orientation-locker](https://github.com/wonday/react-native-orientation-locker#configuration)
