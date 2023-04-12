@@ -169,3 +169,4 @@ AppRegistry.registerComponent(appName, () => AppWithProviders);
 
 ### [Setup splash](https://github.com/crazycodeboy/react-native-splash-screen#third-stepplugin-configuration)
 ### [Setup orientation-locker](https://github.com/wonday/react-native-orientation-locker#configuration)
+### [Delete console logs in production](https://reactnative.dev/docs/performance#using-consolelog-statements)
